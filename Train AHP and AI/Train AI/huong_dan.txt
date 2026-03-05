@@ -1,0 +1,23 @@
+Train AI/
+│
+├── AHP_Laptop_Nhom8.xlsx
+├── train_model.py
+├── train_model.ipynb
+├── rf_ahp_model.pkl
+
+
+1/ cài các thư viện trước, mở terminal Train AI
+pip install pandas numpy scikit-learn openpyxl joblib matplotlib
+pip install scikit-learn==1.3.0
+
+2/ chạy file train 
+python train_model.py
+
+3/ Kết quả hiển thị sẽ gồm:
+R² Score
+MAE
+RMSE
+Feature Importance
+Thông báo: Model saved successfully!
+
+Nếu lỗi liên hệ Trúc
