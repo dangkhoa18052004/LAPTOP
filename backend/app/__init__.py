@@ -13,6 +13,9 @@ def create_app():
 
     # register blueprints
     from .routes.auth import auth_bp
+    from .routes.users import users_bp
+    from .routes.admin_users import admin_users_bp
+
     from .routes.brands import brands_bp
     from .routes.laptops import laptops_bp
     from .routes.imports import imports_bp
@@ -23,6 +26,9 @@ def create_app():
     from .routes.chat import chat_bp
 
     app.register_blueprint(auth_bp, url_prefix="/api/auth")
+    app.register_blueprint(users_bp, url_prefix="/api/users")
+    app.register_blueprint(admin_users_bp, url_prefix="/api/admin")
+
     app.register_blueprint(brands_bp, url_prefix="/api/brands")
     app.register_blueprint(laptops_bp, url_prefix="/api/laptops")
     app.register_blueprint(imports_bp, url_prefix="/api/imports")
