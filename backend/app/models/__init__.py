@@ -3,3 +3,12 @@ from .brand import Brand
 from .laptop import Laptop
 from .laptop_import_log import LaptopImportLog
 from .ahp_criterion import AHPCriterion
+from .evaluation_session import EvaluationSession
+from .evaluation_filter import EvaluationFilter
+from .evaluation_result import EvaluationResult
+from .evaluation_pairwise_matrix import EvaluationPairwiseMatrix
+from .evaluation_weight import EvaluationWeight
+from .evaluation_result_detail import EvaluationResultDetail
+from .order import Order
+from .order_item import OrderItem
+from .review import Review

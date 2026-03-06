@@ -1,0 +1,13 @@
+Cách chạy chương trình 
+backend
+1. cd vào D:\DAGK\AHP\backend>
+2. Cài môi trường ảo chạy lệnh dưới
+py -m venv .venv
+Sau khi chạy xong nó có ra như vầy (.venv) D:\DAGK\AHP\backend>
+còn k có phải ghi lệnh này để kích hoạt môi trường .venv\scripts\activate
+3.Sàu khi kích hoạt môi trường Cài thư viện cần thiết phải là 
+pip install -r requirements.txt
+4. chạy chương trình phải kích hoạt môi trường rồi chạy 
+python run.py
+
+À PHẢI SỬA MẬT KHẨU POSTGRE LẠI NỮA Ở FILE .ENV: DB_PASSWORD="SỬA THÀNH MK CỦA MÌNH"
